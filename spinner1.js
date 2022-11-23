@@ -5,7 +5,7 @@
 // We then write the next character in the animation
 // Spaces are added after the character so that the cursor moves far enough away from our animation
 
-
+process.stdout.write('hello from spinner1.js... \rheyyy\n'); // replaces the "hello" with heyyy because the \r brought cursor back to the start
 
 
 setTimeout(() => {
